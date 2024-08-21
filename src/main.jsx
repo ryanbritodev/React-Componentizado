@@ -24,7 +24,17 @@ const router = createBrowserRouter([
       {path: "contato", element: <Contato />},
       {path: "*", element: <PageNotFound />}
     ]
-  }
+    // Como crio layouts diferentes?
+  }//,
+  // {
+  //   path: "/admin",
+  //   element: <h1>Tela Login</h1>,
+  //   children: [
+  //     {index: true, element: <h1>Tela Login</h1>},
+  //     {path: "/admin/usuarios", element: <h1>Usuários</h1>},
+  //     {path: "/admin/produtos", element: <h1>Produtos</h1>},
+  //   ]
+  // }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
