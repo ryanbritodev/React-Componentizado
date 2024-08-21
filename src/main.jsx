@@ -6,6 +6,8 @@ import './index.css'
 import Sobre from './routes/Sobre.jsx'
 import ConteudoPrincipal from './Componentes/ConteudoPrincipal/index.jsx'
 import PageNotFound from './routes/PageNotFound.jsx'
+import Servicos from './routes/Servicos.jsx'
+import Contato from './routes/Contato.jsx'
 
 const router = createBrowserRouter([
   // Objeto de rota
@@ -18,6 +20,8 @@ const router = createBrowserRouter([
       // Ele irá renderizar o componente Sobre
       {index: true, element: <ConteudoPrincipal />},
       {path: "sobre", element: <Sobre />},
+      {path: "servicos", element: <Servicos />},
+      {path: "contato", element: <Contato />},
       {path: "*", element: <PageNotFound />}
     ]
   }

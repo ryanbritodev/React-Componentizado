@@ -7,10 +7,10 @@ function Header() {
       <h1>Meu site</h1>
       <nav>
             <ul>
-            <li><Link to="">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/sobre">Sobre</Link></li>
-            <li><Link to="">Serviços</Link></li>
-            <li><Link to="">Contato</Link></li>
+            <li><Link to="/servicos">Serviços</Link></li>
+            <li><Link to="/contato">Contato</Link></li>
             {/* Não utilizar o a para fazer links para rotas, consome muito do servidor, pois carrega a pagina inteira */}
             {/* https://open.spotify.com/intl-pt - Componentes */}
             </ul>
